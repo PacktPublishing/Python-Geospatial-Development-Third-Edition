@@ -18,5 +18,5 @@ for layerNum in range(numLayers):
         feature = layer.GetFeature(featureNum)
         featureName = feature.GetField("NAME")
 
-        print("Feature {} has name {}".format(featureNum, featureName'))
+        print("Feature {} has name {}".format(featureNum, featureName))
 
